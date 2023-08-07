@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Space X</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="logo.png" alt="">
+        </a>
+        <a href="spaceship.html">
+          Naves Espaciais
+        </a> |
+        <a href="hire_us.html">
+          Contrate-nos
+        </a>
+      </nav>
+      <hr />
+    </header>
+    <section>
+      <h1>Contrate-nos</h1>
+      <p>Deixe uma mensagem para solicitar um de nossos serviços e retornaremos o mais breve possível.</p>
+    </section>
+  
+    <section>
+      <br>
+      <form>
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email">
+        </div>
+        <br>
+
+        <div>
+          <label for="spaceship">Nave Espacial:</label>
+          <select name="spaceship" id="spaceship">
+            <option value="falcon_9">Falcon 9</option>
+            <option value="falcon_heavy">Falcon Heavy</option>
+          </select> -
+          <label for="service">Tipo de Serviço:</label>
+          <input type="search" name="service" id="service" list="services" />
+          <datalist id="services">
+            <option value="Viajar para Lua"></option>
+            <option value="Viajar para Plutão"></option>
+            <option value="Viajar para Marte"></option>
+            <option value="Viajar para Júpiter"></option>
+          </datalist>   
+        </div>
+        <br>
+
+        <div>
+          <br>
+          <input type="submit" name value="Enviar Mensagem" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
